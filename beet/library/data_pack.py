@@ -234,6 +234,12 @@ class BlockTag(TagFile):
     scope: ClassVar[Tuple[str, ...]] = ("tags", "blocks")
 
 
+class DamageTypeTag(TagFile):
+    """Class representing a damage tag."""
+
+    scope: ClassVar[Tuple[str, ...]] = ("tags", "damage_type")
+
+
 class EntityTypeTag(TagFile):
     """Class representing an entity tag."""
 
